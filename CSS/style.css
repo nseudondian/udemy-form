@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 30rem;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+h1{
+    margin-bottom: 20px;
+}
+input{
+    width: 20vw;
+    height: 2rem;
+    border: none;
+    padding: 5px;
+}
+div{
+    margin: 0.5rem 0;
+}
+
+button{
+    margin-top: 2rem;
+    height: 2rem;
+    width: 20vw;
+    border: none;
+    border-radius: 3px;
+    background-color: peru;
+    color: white;
+}
